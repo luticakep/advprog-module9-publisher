@@ -10,3 +10,6 @@
 
 ### Rabbit MQ
 ![](rabbit.png)
+
+### Sending and processing event
+![](event.png)
