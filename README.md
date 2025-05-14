@@ -13,3 +13,8 @@
 
 ### Sending and processing event
 ![](event.png)
+
+### Monitoring chart based on publisher
+![](rabbit2.png)
+
+The spike in the chart indicates that the publisher is sending messages to the RabbitMQ server. Each spike represents the batch of messages the publisher sent. The activity led to a rise in the publish rate, represented by the peaks in the graph. Once the messages were sent, the rate returned to zero indicating that no additional messages were being sent.
