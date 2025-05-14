@@ -7,3 +7,6 @@
 2. The url of: “amqp://guest:guest@localhost:5672” is the same as in the subscriber program, what does it mean?
 
     It specifies the protocol (AMQP), the username (guest), the password (guest), and the host (localhost) along with the port number (5672). This means that both the publisher and subscriber programs are connecting to the same RabbitMQ server using the same credentials, allowing them to communicate with each other through message queues. 
+
+### Rabbit MQ
+![](rabbit.png)
